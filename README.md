@@ -13,6 +13,13 @@ https://github.com/shuai132/SimpleOscillograph_For_STM32
 - TFT LCD
 - Keil
 
+## 项目原理
+- TIM2定时器产生固定周期中断
+- ADC进行多通道连续采样
+- DMA自动将采样结果搬运到内存
+- USB虚拟串口将采样数据发送到PC端
+- 上位机完成波形显示
+
 ## 学习内容
 
 - ADC采样原理
