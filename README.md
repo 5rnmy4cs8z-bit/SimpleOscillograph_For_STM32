@@ -31,3 +31,6 @@ https://github.com/shuai132/SimpleOscillograph_For_STM32
 - 阅读项目代码结构
 - 分析ADC采样流程
 - 调试显示模块
+- 增加平均滤波
+- 加入峰值检测功能（max，min）
+- 加入采样率切换功能（1khz，10khz，20khz）
