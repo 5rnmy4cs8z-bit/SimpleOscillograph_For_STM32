@@ -138,9 +138,9 @@ void send(void)
   PRINTF_LABVIEW("AD:%d\r\n", ADC_B);       //adc位数
   PRINTF_LABVIEW("FS:%d\r\n", FS);          //采样率
   PRINTF_LABVIEW("NM:%d\r\n", num_of_data); //数据个数(用于绘图）
-	PRINTF_LABVIEW("MAX:%d\r\n", Max_Value); 
-	PRINTF_LABVIEW("MIN:%d\r\n", Min_Value);
-	PRINTF_LABVIEW("AVG:%d\r\n", avg);
+  PRINTF_LABVIEW("MAX:%d\r\n", Max_Value); 
+  PRINTF_LABVIEW("MIN:%d\r\n", Min_Value);
+  PRINTF_LABVIEW("AVG:%d\r\n", avg);
   
   is_abort = 0;
 
